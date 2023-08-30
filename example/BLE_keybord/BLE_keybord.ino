@@ -229,8 +229,7 @@ void loop()
         }
         //alt+left shit, trigger ctrl+shift(Switch the input method)
         if (keyActive(0, 4) && keyPressed(1, 6)) {
-            bleKeyboard.press(KEY_RIGHT_CTRL);
-            bleKeyboard.press(KEY_RIGHT_SHIFT);
+            bleKeyboard.press(KEY_CAPS_LOCK);
         }
 
         bleKeyboard.releaseAll();
